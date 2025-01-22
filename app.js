@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json()); // Parse incoming requests with JSON payloads
 app.use(express.urlencoded({ extended: false })); // Parse incoming requests with URL-encoded payloads (like form submissions).
 
-// Connect to the database
+// Connect application to database
 connectDB();
 
 // Use authentication routes
